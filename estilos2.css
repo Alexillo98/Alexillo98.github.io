@@ -1,0 +1,126 @@
+* {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+body{
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+}
+img.banner{
+    width: 100%;
+}
+/*MENU*/
+div.enlaces {
+    width: 200px;
+    float: right;
+  }
+  
+div.enlaces a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+div.enlaces a:hover {
+    background-color: #ccc;
+  }
+  
+div.enlaces a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+/*MENU*/
+/*FOOTER*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 231, 231);
+    color: rgb(0, 0, 0);
+    text-align: center;
+ }
+/*FOOTER*/
+/*INICIO*/
+div.introduccion{
+    color: white;
+    width: 100%;
+    float: left;
+    background: rgba(0, 0, 0, 0.7);
+}
+div.tutoriales{
+    color: white;
+    width: 17.3%;
+    float: right;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+div.normas{
+    color: white;
+    width: 78%;
+    float: left;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+div.abc{
+    color: white;
+    width: 78%;
+    float: left;
+    background: rgba(0, 0, 0, 0.7);
+}
+div.sonido{
+    width: 17.3%;
+    float: right;
+    background: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+}
+video{
+    width: 95%;
+}
+audio{
+    width: 95%;
+}
+
+table.rank{
+    border: 1px solid black;
+    width: 50%;
+    border-collapse: collapse;
+}
+th.rank{
+    border: 1px solid black;
+    width: 50%;
+    border-collapse: collapse;
+}
+tr.rank{
+    border: 1px solid black;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+/*INICIO*/
+
+/*DIOSES*/
+tr.titulo{
+    background: rgba(0, 0, 0, 0.7);
+}
+td.dios{
+    background: rgba(0, 0, 0, 0.7);
+}
+td.origen{
+    background: rgba(0, 0, 0, 0.7);
+}
+table.tabla_dioses{
+    background: rgba(0, 0, 0, 0.7);
+    border: 6px solid;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+/*DIOSES*/
+/*CUESTIONARIO*/
+form{
+    width: 50%;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px double;
+    border-radius: 5px;
+}
+/*CUESTIONARIO*/

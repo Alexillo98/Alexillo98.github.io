@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>SMITE CUESTIONARIO</title>
+        <link rel="stylesheet" type="text/css" href="./estilos.css">
+        <!--AUTOR: ALEXANDRU EDUARD MUSAT-->
+    </head>
+    <body>
+        <header>
+            <div class="banner">
+                <img class="banner" src="./media/logoSmite.png">
+                <a href="./RSS.rss"><img src="./rss.png" width="20" height="20"></a>
+            </div>
+        </header>
+        <div class="enlaces">
+        <ul class="enlaces">
+            <ul class="enlaces">
+                <li class="link"><a class="enlace" href="./index.html" target="_self">Inicio</a></li>
+                <li class="link"><a class="enlace" href="./dioses.html" target="_self">Dioses</a></li>
+                <li class="link"><a class="enlace" href="./cuestionario.html" target="_self">Cuestionario</a></li>
+                <li class="link"><a class="enlace" href="https://www.smitegame.com/" target="_blank">Oficial</a></li>
+                </ul>
+        </ul>
+        </div>
+        <form action="https://formspree.io/f/mwkgvaav" method="post">
+            <fieldset>
+                <legend>Información personal</legend>
+                <label>(*) Nombre:</label>
+                <input
+                    type="text"
+                    name="usuario"
+                    size="30"
+                    maxlength="30"
+                    placeholder="Escriba aqui su nombre"
+                    required="required">
+                <br><br>
+                <label>(*) Correo electronico:</label>
+                <input
+                    type="email"
+                    name="correo"
+                    size="50"
+                    maxlength="50"
+                    placeholder="Escriba aqui su correo"
+                    required="required">
+            </fieldset>
+            <br><br>
+            <label>Dios favorito:</label>
+            <select name="dios_Favorito" id="dios_Favorito">
+                <option value="Amaterasu">Amaterasu</option>
+                <option value="Susano">Susano</option>
+                <option value="Hachiman">Hachiman</option>
+                <option value="Thanatos">Thanatos</option>
+                <option value="Chronos">Chronos</option>
+                <option value="Athena">Athena</option>
+            </select>
+            <br><br>
+            <fieldset>
+                <legend>Tipo/s favorito/s:</legend>
+
+                <label>Asesino</label>
+                <input type="checkbox" name="asesino">
+                <br>
+                <label>Cazador</label>
+                <input type="checkbox" name="cazador">
+                <br>
+                <label>Mago</label>
+                <input type="checkbox" name="mago">
+                <br>
+                <label>Guerrero</label>
+                <input type="checkbox" name="guerrero">
+                <br>
+                <label>Guardián</label>
+                <input type="checkbox" name="guardian">
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Posicion favorita:</legend>
+                <label>Linea izquierda</label>
+                <input type="radio" name="posicion" id="izquierda" value="izquierda">
+                <br>
+                <label>Linea media</label>
+                <input type="radio" name="posicion" id="media" value="media">
+                <br>
+                <label>Linea derecha</label>
+                <input type="radio" name="posicion" id="derecha" value="derecha">
+                <br><br>
+            </fieldset>
+            <h4>(*) Campo obligatorio.</h4>
+            <input type="submit">
+
+            <input type="reset">
+        </form>
+        <footer>Cualquier sugerencia enviar un correo a: musateduardalexandru@gmail.com</footer>
+    </body>
+</html>

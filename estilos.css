@@ -1,0 +1,109 @@
+* {margin: 1%;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body{
+    background: url(./media/fondo.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+img.banner{
+    width: 200px;
+}
+/*MENU*/
+div.enlaces{
+    width: 21%;
+}
+ul.enlaces {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li.link {
+    float: left;
+  }
+  
+  li a.enlace {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a.enlace:hover:not(.active) {
+    background-color: #111;
+  }
+/*MENU*/
+/*FOOTER*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
+/*FOOTER*/
+/*INICIO*/
+div.introduccion{
+    width: 98%;
+    float: left;
+    background: rgba(255, 255, 255, 0.7);
+}
+div.tutoriales{
+    width: 18%;
+    float: left;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+div.normas{
+    width: 78%;
+    float: right;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+div.abc{
+    width: 78%;
+    float: right;
+    background: rgba(255, 255, 255, 0.7);
+}
+div.sonido{
+    width: 17.3%;
+    float: left;
+    background: rgba(255, 255, 255, 0.7);
+    box-sizing: border-box;
+}
+video{
+    width: 95%;
+}
+audio{
+    width: 95%;
+}
+
+/*INICIO*/
+
+/*DIOSES*/
+tr.titulo{
+    background: rgba(67, 122, 67, 0.7);
+}
+td.dios{
+    background: rgba(97, 241, 97, 0.7);
+}
+td.origen{
+    background: rgba(171, 244, 172, 0.7);
+}
+table.tabla_dioses{
+    background: rgba(236, 255, 226, 0.7);
+    border: 6px solid;
+    border-color: rgb(0, 0, 0);
+    color: rgb(67, 67, 67);
+}
+/*DIOSES*/
+/*CUESTIONARIO*/
+form{
+    background: rgba(97, 241, 97, 0.7);
+    border: 2px dotted;
+    border-radius: 5px;
+}
+/*CUESTIONARIO*/
